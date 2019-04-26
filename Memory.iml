@@ -7,6 +7,7 @@
           <file>file://$MODULE_DIR$/src/main/resources/spring-servlet.xml</file>
           <file>file://$MODULE_DIR$/src/main/resources/spring-mybatis.xml</file>
           <file>file://$MODULE_DIR$/src/main/resources/applicationContext.xml</file>
+          <file>file://$MODULE_DIR$/src/main/resources/springmvc.xml</file>
         </fileset>
       </configuration>
     </facet>

@@ -214,6 +214,26 @@
       <artifactId>mybatis-spring</artifactId>
       <version>1.2.3</version>
     </dependency>
+      <!-- https://mvnrepository.com/artifact/junit/junit -->
+      <dependency>
+          <groupId>junit</groupId>
+          <artifactId>junit</artifactId>
+          <version>4.13-beta-2</version>
+          <scope>test</scope>
+      </dependency>
+      <!-- https://mvnrepository.com/artifact/org.junit/com.springsource.org.junit -->
+      <dependency>
+          <groupId>org.junit</groupId>
+          <artifactId>com.springsource.org.junit</artifactId>
+          <version>4.7.0</version>
+          <scope>test</scope>
+      </dependency>
+    <dependency>
+      <groupId>javax.servlet</groupId>
+      <artifactId>javax.servlet-api</artifactId>
+      <version>4.0.1</version>
+    </dependency>
+
   </dependencies>
   <build>
     <finalName>Demo</finalName>
