@@ -19,5 +19,5 @@ public interface UserDao {
      * @param username
      * @param password
      */
-    void registerByUsernameAndPassword(@Param("username")String username,@Param("password")String password);
+    void registerByUsernameAndPassword(@Param("username")String username,@Param("password")String password,@Param("userEmail")String userEmail,@Param("userSex")String userSex);
 }

@@ -15,20 +15,20 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>注册</title>
+    <title>记忆约拍</title>
     <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
-    <script type="javascript" src="js/register.js"></script>
+    <script language="javascript" src="js/register.js" defer="true"></script>
 </head>
 <body>
-<form action="${pageContext.request.contextPath}/user/doRegister" method="post" name="form1" onsubmit="return check()" >
+<form action="${pageContext.request.contextPath}/user/doRegister" method="post" name="form1" onsubmit="return check()">
     <table border="0" align="center" width="600">
         <tr><td colspan="3" align="center" height="40">填写注册信息</td></tr>
         <tr><td align="right">用户名:*</td>
-            <td><input type="text" name="username" id="username"></td>
+            <td><input type="text" name="username" id="UserName"></td>
             <td>用户名由字母开头，后跟字母、数字或下划线组成</td>
         </tr>
         <tr><td align="right">密码:*</td>
-            <td><input type="password" name="password" id="password"></td>
+            <td><input type="password" name="password" id="Password"></td>
             <td>请再输入一次你的密码</td>
         </tr>
         <tr><td align="right">性别:*</td>
@@ -46,7 +46,7 @@
             我已经自行阅读并同意接受用户使用协议</td>
         </tr>
         <tr><td colspan="3" align="center" height="40">
-            <input type="submit"  value="确认" />
+            <input type="submit" value="确认" />
             <input type="reset" value="取消">
         </td>
         </tr>
